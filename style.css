@@ -1,0 +1,55 @@
+/* css untuk struk */
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    color:#484EA1; 
+    float: left;
+    margin-left:1em;
+    display: flex;
+    align-items: center;
+}
+
+.p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: black;
+    text-align: right;
+    float: right;
+    margin-right:1em;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+}
+
+.pembatas {
+    width: auto; 
+    height:35px;
+    background-color:#cfcece;   
+}
+
+.tabel1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 90;
+    color: black;
+    margin-left: 2em;
+}
+
+.tabel2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 90;
+    color: black;
+    margin-right: 5em;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}

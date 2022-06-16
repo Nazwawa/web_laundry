@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+table{
+    border-collapse:collapse;
+    font-size: 12pt;
+    border: 1px solid #cccccc;
+    margin: auto;
+    
+}
+
+td{
+    padding: 10px;
+    height: 30px;
+    
+}
+
+.table-view thead tr:nth-child(odd) {
+    color: black;
+    background-color: #6287ff;
+} 
+ 
+.table-view tbody tr:nth-child(odd) {
+    background-color:rgb(233, 233, 233);
+    color: black;
+}
+.table-view tbody tr:nth-child(even) {
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+
+a{
+    color: #2e2d2d;
+    display: flexbox;
+}
+
+a .fas{
+    width: 20px;
+}
+
+/* .tambah, tr, th{
+    background-color:rgb(255, 255, 255);
+    border-collapse:collapse;
+    font-size: 18px;
+    margin: auto;
+} */
+
+/* css untuk semua tabel tambah data */
+form {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 1rem;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+.tambah{
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    background: #fff;   
+    border: none;
+}
+
+.tambah form input {
+    margin-bottom: 1rem;
+    background: #fff;
+    border: 1px solid #9c9c9c;
+}
+
+.tambah label {
+    text-align: left;
+    display: block;
+    padding: 0.4em 0em 0.4em 0;
+}
+
+.tambah input {
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 0.5rem;
+}
+
+.tambah select {
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 0.4rem;
+}
+
+
